@@ -1,18 +1,11 @@
 {
   "ops": [
     {
-      "id": "agents",
+      "id": "rpc-agent",
       "args": {
-        "gpu": true,
-        "image": "docker.io/yourusername/agent-challenge:latest",
-        "expose": [
-          {
-            "port": 8080
-          }
-        ],
-        "entrypoint": [
-          "/bin/sh"
-        ]
+        "image": "docker.io/chigozzdev/rpc-agent-challenge:latest",
+        "gpu": false,
+        "expose": [{"port": 8080}]
       },
       "type": "container/run"
     }
