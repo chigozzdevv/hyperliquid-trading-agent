@@ -10,8 +10,8 @@
     "lint": "biome lint ./src",
     "format": "biome format ./src/** --write",
     "check": "biome check ./src",
-    "deploy:agent": "nosana job post --file ./nos_job_def/trading_agent.json --market nvidia-3060 --timeout 60",
-    "deploy:qwen": "nosana job post --file ./nos_job_def/qwen_job.json --market nvidia-3090 --timeout 60"
+    "deploy:agent": "nosana job post --file ./nos_job_def/trading_agent.json --market nvidia-3060 --timeout 200",
+    "deploy:qwen": "nosana job post --file ./nos_job_def/qwen_job.json --market nvidia-3090 --timeout 200"
   },
   "keywords": [],
   "author": "",
