@@ -1,0 +1,38 @@
+{
+    "ops": [
+      {
+        "id": "trading-agent",
+        "args": {
+          "image": "docker.io/chigozzdev/hyperliquid-trading-agent:latest",
+          "gpu": false,
+          "expose": [
+            {
+              "port": 8080,
+              "health_checks": [
+                {
+                  "type": "http",
+                  "method": "GET",
+                  "path": "/health",
+                  "expected_status": 200,
+                  "continuous": true
+                }
+              ]
+            }
+          ],
+          "env": {
+            "NODE_ENV": "production",
+            "PORT": "8080"
+          }
+        },
+        "type": "container/run"
+      }
+    ],
+    "meta": {
+      "trigger": "dashboard",
+      "system_requirements": {
+        "required_vram": 4
+      }
+    },
+    "type": "container",
+    "version": "0.1"
+  }

@@ -1,0 +1,29 @@
+{
+  "ops": [
+    {
+      "id": "qwen2.5:32b", 
+      "args": {
+        "gpu": true,
+        "image": "docker.io/ollama/ollama:latest",
+        "env": {
+          "MODEL": "qwen2.5:32b"
+        },
+        "expose": [
+          {
+            "port": 11434
+          }
+        ],
+        "entrypoint": ["/bin/sh", "-c", "ollama serve & sleep 10 && ollama pull $MODEL && tail -f /dev/null"]
+      },
+      "type": "container/run"
+    }
+  ],
+  "meta": {
+    "trigger": "dashboard",
+    "system_requirements": {
+      "required_vram": 64
+    }
+  },
+  "type": "container",
+  "version": "0.1"
+}

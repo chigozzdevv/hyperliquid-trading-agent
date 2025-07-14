@@ -1,11 +1,13 @@
 import { Mastra } from "@mastra/core/mastra";
 import { PinoLogger } from "@mastra/loggers";
-import { rpcAgent } from "./agents/rpc-intel/rpc-agent";
+import { tradingAgent } from "./agents/nosa-trading-agent/trading-agent";
 
 export const mastra = new Mastra({
-  agents: { rpcAgent },
+  agents: { 
+    tradingAgent,
+  },
   logger: new PinoLogger({
-    name: "RPC Monitor",
+    name: "NOSA - Hyperliquid AI-Powered Trading Bot",
     level: "info",
   }),
   server: {

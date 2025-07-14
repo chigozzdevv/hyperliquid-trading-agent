@@ -4,14 +4,14 @@
   "main": ".mastra/output/index.mjs",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "deploy:agent": "nosana job post --file ./nos_job_def/nosana_mastra.json --market nvidia-3090 --timeout 30",
-    "deploy:qwen": "nosana job post --file ./nos_job_def/qwen_nos_jb.json --market nvidia-3090 --timeout 30",
     "dev": "mastra dev",
     "build": "mastra build",
     "start": "mastra start",
     "lint": "biome lint ./src",
     "format": "biome format ./src/** --write",
-    "check": "biome check ./src"
+    "check": "biome check ./src",
+    "deploy:agent": "nosana job post --file ./nos_job_def/trading_agent.json --market nvidia-3060 --timeout 60",
+    "deploy:qwen": "nosana job post --file ./nos_job_def/qwen_job.json --market nvidia-3090 --timeout 60"
   },
   "keywords": [],
   "author": "",
@@ -28,6 +28,7 @@
     "@mastra/loggers": "^0.10.2",
     "@mastra/memory": "^0.10.3",
     "dotenv": "^16.5.0",
+    "hyperliquid": "^1.7.6",
     "ollama-ai-provider": "^1.2.0",
     "zod": "^3.25.67"
   },
