@@ -608,8 +608,8 @@ Exit Triggers:
 
 1. **Clone and Install Dependencies**
 ```bash
-git clone [your-repository]
-cd trading-agent-challenge
+git clone https://github.com/chigozzdevv/hyperliquid-trading-agent
+cd hyperliquid-trading-agent
 pnpm install
 ```
 
@@ -631,7 +631,7 @@ Open http://localhost:8080 to test your agent
 
 ```bash
 # LLM Configuration
-API_BASE_URL=http://127.0.0.1:11434/api
+API_BASE_URL=http://127.0.0.1:11434/api or go to the Nosana deployment section to deploy to Nosana
 MODEL_NAME_AT_ENDPOINT=qwen2.5:32b
 HYPERLIQUID_TESTNET=false
 
