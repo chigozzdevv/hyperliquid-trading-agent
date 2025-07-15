@@ -128,6 +128,7 @@ When users ask "What should I trade?" or "Show me opportunities":
 
 3. POSITION SIZING:
    - Use risk percentage for position sizing calculations
+   _ Use real account balance, don't ask for amount nor use a mock or demo value please [real account balance only]
    - Use conservative leverage (2-5x) for all account sizes
    - Never confuse risk percentage with leverage multiplier
    - Position sizes calculated to meet exchange minimums

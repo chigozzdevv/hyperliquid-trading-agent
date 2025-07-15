@@ -643,7 +643,7 @@ PORT=8080
 
 1. **Build Container**
 ```bash
-docker build -t chigozzdev/hyperliquid-trading-agent:latest .
+docker build -t yourusername/hyperliquid-trading-agent:latest .
 ```
 
 2. **Test Locally**
