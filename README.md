@@ -1,6 +1,6 @@
 # Hyperliquid AI Trading Intelligence Agent
 
-<iframe width="853" height="480" src="https://www.youtube.com/embed/6C6sChkfbv0" title="Nosa - Hyperliquid AI Trading Agent Demo [Nosana Agent Challenge]" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+Demo video: https://youtu.be/6C6sChkfbv0
 
 Advanced cryptocurrency trading agent powered by Qwen 32B LLM and Mastra framework, designed for high-probability trading opportunities on Hyperliquid DEX.
 
