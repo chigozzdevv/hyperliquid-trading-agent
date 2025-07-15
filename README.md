@@ -64,6 +64,9 @@ This intelligent trading agent combines advanced AI reasoning with professional 
 ### Market Analysis Tools
 
 #### `analyzeMarkets`
+
+<img src="./assets/analyze-market.png" style="max-width:1000px;">
+
 **Purpose**: Comprehensive market analysis with win rate focus and sentiment integration.
 
 **Workflow**:
@@ -86,6 +89,8 @@ Output: Market overview + Asset analysis + Recommendations
 
 #### `findTopOpportunities`
 
+<img src="./assets/find-opportunities.png" style="max-width:1000px;">
+
 **Purpose**: Identify the highest probability trading setups across all available assets.
 
 **Algorithm Flow**:
@@ -105,6 +110,9 @@ Advanced Scoring → Rank Opportunities → Return Top 5
 - Sentiment Divergence: 10%
 
 #### `recognizePatterns`
+
+<img src="./assets/recognize-patterns.png" style="max-width:1000px;">
+
 **Purpose**: Real-time technical pattern identification using actual price data.
 
 **Pattern Categories**:
@@ -136,6 +144,9 @@ Bull Flag Pattern:
 - Historical pattern success rate
 
 #### `generateRecommendation`
+
+<img src="./assets/generate-recommendation.png" style="max-width:1000px;">
+
 **Purpose**: AI-powered trade recommendations combining all analysis factors.
 
 **Decision Matrix**:
@@ -150,6 +161,9 @@ Final Recommendation with Reasoning
 ### Account Management Tools
 
 #### `getAccountInfo`
+
+<img src="./assets/get-account-info.png" style="max-width:1000px;">
+
 **Purpose**: Retrieve comprehensive account information for margin and risk calculations.
 
 **Data Structure**:
@@ -163,6 +177,9 @@ Account Overview:
 ```
 
 #### `getPositions`
+
+<img src="./assets/get-positions.png" style="max-width:1000px;">
+
 **Purpose**: Monitor all open positions with real-time P&L and risk metrics.
 
 **Position Analysis**:
@@ -177,6 +194,9 @@ For Each Position:
 ```
 
 #### `getTradeHistory`
+
+<img src="./assets/trade-history.png" style="max-width:1000px;">
+
 **Purpose**: Analyze trading performance and calculate win rate statistics.
 
 **Performance Metrics**:
@@ -189,6 +209,9 @@ For Each Position:
 ### Trading Execution Tools
 
 #### `calculatePositionSize`
+
+<img src="./assets/calculate-position.png" style="max-width:1000px;">
+
 **Purpose**: Dynamic position sizing based on account size and risk parameters.
 
 **Risk Scaling Algorithm**:
@@ -216,6 +239,9 @@ Final Size = Base Size × Leverage
 ```
 
 #### `executeTrade`
+
+<img src="./assets/execute-trade.png" style="max-width:1000px;">
+
 **Purpose**: Execute trades with proper risk management and order placement.
 
 **Execution Flow**:
@@ -275,6 +301,9 @@ Risk Status Levels:
 ### Authentication Tools
 
 #### `authenticateUser`
+
+<img src="./assets/authenticate-user.png" style="max-width:1000px;">
+
 **Purpose**: Secure authentication with Hyperliquid API credentials.
 
 **Authentication Flow**:
